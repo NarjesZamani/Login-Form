@@ -1,0 +1,31 @@
+/* Reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Handlee", cursive;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.hidden-svg{
+    display: none;
+}
+
+.bg-sec{
+    background-image: url("/img/hot-pink-sky.jpeg");
+    height: 95vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
